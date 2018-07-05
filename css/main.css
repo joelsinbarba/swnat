@@ -781,7 +781,7 @@ td, th {
 @media (max-width: 600px) {
   #thisone{
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
 }
 
@@ -2044,6 +2044,10 @@ nav a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.n{
+  margin-top: 100px;
+}
+
 .primary-btn {
   line-height: 40px;
   padding: 0 30px;
@@ -2060,6 +2064,7 @@ nav a:hover {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+  margin-bottom: 100px;
 }
 
 .primary-btn:focus {
@@ -2136,6 +2141,13 @@ img{
 
 .banner-area .height {
   height: 100vh;
+}
+
+@media (max-width: 500px) {
+  
+.banner-area .height  {
+  height: 100vh;
+  }
 }
 
 .banner-area .generic-height {
